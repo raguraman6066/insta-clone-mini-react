@@ -1,0 +1,57 @@
+{
+    "posts":[
+        {
+          "id": 1,
+          "user": {
+            "id": 101,
+            "username": "johndoe",
+            "profile_pic": "src/assets/profile1.jpg"
+          },
+          "image": "src/assets/background1.jpg",
+          "caption": "Enjoying the sunset! 🌅",
+          "likes": 120,
+          "comments": [
+            {
+              "user": {
+                "id": 102,
+                "username": "janedoe",
+                "profile_pic": "https://example.com/profile2.jpg"
+              },
+              "comment": "Wow! That looks amazing! 😍"
+            },
+            {
+              "user": {
+                "id": 103,
+                "username": "alex",
+                "profile_pic": "https://example.com/profile3.jpg"
+              },
+              "comment": "Where is this place?"
+            }
+          ],
+          "timestamp": "2024-03-08T14:30:00Z"
+        },
+        {
+          "id": 2,
+          "user": {
+            "id": 104,
+            "username": "michael",
+            "profile_pic": "src/assets/profile2.jpg"
+          },
+          "image": "src/assets/background2.jpg",
+          "caption": "Weekend vibes! 🎉",
+          "likes": 250,
+          "comments": [
+            {
+              "user": {
+                "id": 105,
+                "username": "sarah",
+                "profile_pic": "https://example.com/profile5.jpg"
+              },
+              "comment": "Looking great! 🔥"
+            }
+          ],
+          "timestamp": "2024-03-08T16:45:00Z"
+        }
+      ]
+      
+}
