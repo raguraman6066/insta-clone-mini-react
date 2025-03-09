@@ -52,6 +52,43 @@
           ],
           "timestamp": "2024-03-08T16:45:00Z"
         }
+      ],
+      "profile": {
+        "id": 101,
+        "username": "peter",
+        "profile_pic": "src/assets/profile1.jpg"
+      },
+      "suggestions":[
+        {
+          "id": 104,
+          "username": "johnman",
+          "profile_pic": "src/assets/profile2.jpg"
+        },{
+          "id": 101,
+          "username": "travel",
+          "profile_pic": "src/assets/profile1.jpg"
+        }  
+      ],
+      "story":[
+        {
+          "id": 1,
+          "user": {
+            "id": 101,
+            "username": "johndoe",
+            "profile_pic": "src/assets/profile1.jpg"
+          },
+          "image": "https://mfiles.alphacoders.com/980/980525.jpg"
+        },
+        {
+          "id": 2,
+          "user": {
+            "id": 104,
+            "username": "michael",
+            "profile_pic": "src/assets/profile2.jpg"
+          },
+          "image": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDk0LWJnLTAzNGMteC5qcGc.jpg"
+         
+        }
       ]
       
 }

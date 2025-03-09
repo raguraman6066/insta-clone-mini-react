@@ -25,3 +25,15 @@
 .image{
   width: 300px;
 }
+
+.suggestions h5{
+ font-size: 16px;
+}
+.suggestions .dp{
+  margin-top:0px !important;
+}
+
+.story-dp{
+  width: 40px;
+  height: 40px;
+}

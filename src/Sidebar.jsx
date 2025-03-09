@@ -2,7 +2,7 @@ import React from "react";
 import InstagramText from "./assets/Instagram_text.png";
 function Sidebar() {
   return (
-    <div className="m-3">
+    <div className="m-3 position-fixed">
       <div className="d-flex flex-column gap-3">
         <img className="logo-text" src={InstagramText} alt="" />
         <div>
